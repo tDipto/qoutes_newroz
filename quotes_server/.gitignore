@@ -105,6 +105,9 @@ venv/
 ENV/ 
 env.bak/ 
 venv.bak/ 
+quotes_newroz/quotes_server/env/
+quotes_server/env/
+
 
 # mkdocs documentation 
 /site 
