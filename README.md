@@ -59,6 +59,13 @@
 ![Aquotes](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/authorwise.PNG)
 
 
+### Edit/ Delete Qoute
+```sh
+   http://127.0.0.1:8000/quotes/<str:author>
+```
+![Aquotes](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/showSingle.PNG)
+
+
 
 
 
