@@ -35,7 +35,7 @@
 
 # Features
 ### Scraping from URL
-```sh
+```bash
    http://127.0.0.1:8000/extract_quotes
 ```
 ![Scraping](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/scraping.PNG)
