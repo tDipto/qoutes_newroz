@@ -35,5 +35,5 @@ Please follow the below instructions to run this branch in your machine:
 
 # Features
 ### Scraping from URL
-https://github.com/tDipto/qoutes_newroz/blob/master/pictures/scraping.PNG
+![Scraping](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/scraping.PNG)
 
