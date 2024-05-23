@@ -35,6 +35,9 @@
 
 # Features
 ### Scraping from URL
+```sh
+   http://127.0.0.1:8000/extract_quotes
+```
 ![Scraping](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/scraping.PNG)
 
 
@@ -43,10 +46,16 @@
 
 
 ### Show all Quotes
+```sh
+   http://127.0.0.1:8000/quotes
+```
 ![quotes](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/showAll.PNG)
 
 
 ### Show all Author Quotes
+```sh
+   http://127.0.0.1:8000/quotes/<str:author>
+```
 ![Aquotes](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/authorwise.PNG)
 
 
