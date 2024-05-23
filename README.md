@@ -1,4 +1,4 @@
-Please follow the below instructions to run this branch in your machine:
+### Please follow the below instructions to run this branch in your machine:
 
 1. Login to the GitHub account on which you have been granted access to this repository.
 
@@ -36,4 +36,22 @@ Please follow the below instructions to run this branch in your machine:
 # Features
 ### Scraping from URL
 ![Scraping](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/scraping.PNG)
+
+
+### After Scraping from URL
+![Scraping2](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/after_scraping.PNG)
+
+
+### Show all Quotes
+![quotes](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/showAll.PNG)
+
+
+### Show all Author Quotes
+![Aquotes](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/authorwise.PNG)
+
+
+
+
+
+
 
