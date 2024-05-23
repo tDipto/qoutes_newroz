@@ -59,7 +59,7 @@
 ![Aquotes](https://github.com/tDipto/qoutes_newroz/blob/master/pictures/authorwise.PNG)
 
 
-### Edit/ Delete Qoute
+### Edit/ Delete Quotes
 ```sh
    http://127.0.0.1:8000/quotes/<str:author>
 ```
