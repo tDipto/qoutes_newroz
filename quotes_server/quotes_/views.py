@@ -41,8 +41,9 @@ class ExtractQuotesView(APIView):
             author_tag = quote.find('span', class_='authorOrTitle')
             if author_tag:
                 author_name = author_tag.string.strip()
+                # Check if author exists, if not, create it
                 author, created = Author.objects.get_or_create(name=author_name)
-                extracted_quotes.append({'text': quote_text, 'author': author.id})
+                extracted_quotes.append({'text': quote_text, 'author_id': author.id})
             else:
                 return Response({'error': 'Author not found for a quote'}, status=status.HTTP_400_BAD_REQUEST)
 
@@ -63,17 +64,11 @@ class QuoteDetailView(generics.ListCreateAPIView):
 class QuoteSingleDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Quote.objects.all()
     serializer_class = QuoteSerializer
-
-class QuoteRetrieveUpdateDestroyAPIView(generics.RetrieveUpdateDestroyAPIView):
-    serializer_class = QuoteSerializer
-
-    def get_queryset(self):
-        author_id = self.kwargs['author_id']
-        return Quote.objects.filter(author_id=author_id)
+    
 
 class AuthorQuotesView(generics.ListCreateAPIView):
     serializer_class = QuoteSerializer
 
     def get_queryset(self):
-        author_name = self.kwargs['author_name']
+        author_name = self.kwargs['author']
         return Quote.objects.filter(author__name__icontains=author_name)
